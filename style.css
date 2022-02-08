@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.navbar-brand{
+    color: black;
+    padding-left: 3rem;
+}
+.navbar{
+    background-color: rgb(176, 177, 175);
+}
+.navbar-toggler{
+    margin-right: 2.5rem;
+    color: black;
+    background-color:transparent;
+
+}
+.nav-item{
+    color: black;
+    font-size: 2rem;
+    padding-left: 47%;
+    background-color: coral;
+    margin-top: 0.5rem;
+}
+header{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+.col-md-3 ,.col-xs-12 ,.col-sm-5 ,.col-sm-12{
+    
+   
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.inhead{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.text{
+    padding: 0rem 1rem;
+}
+.item{
+    background-color: lightgray;
+}
+@media (min-width:768px) {
+    .navbar-toggler{
+        display: none;
+    }
+}
