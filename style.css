@@ -49,6 +49,10 @@ header{
 .item{
     background-color: lightgray;
 }
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
 @media (min-width:576px) {
     .navbar-toggler{
         display: none;
